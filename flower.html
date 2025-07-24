@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="icon" href="images/my pic.jpg" type="image/png">
     <title>My Flower Market</title>
     <!-- Example: Poppins from Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
@@ -12,7 +13,7 @@
 <body>
     <header>
         <!-- logo -->
-        <section class="lg:flex justify-between max-w-sm lg:max-w-6xl m-auto">
+        <nav class="lg:flex sm:grid-row-1 hidden-a  max-w-sm justify-between pt-5 lg:max-w-6xl m-auto">
             <div class="">
                 <img src="images/logo.png" alt="">
             </div>
@@ -23,9 +24,9 @@
                 <a href="" class="mr-5">About us</a>
                 <a href=""><img class="inline mr-1" src="icon/cart.png" alt="">Cart ($56)</a>
             </div>
-        </section>
+        </nav>
         <!-- About Section -->
-        <section class="flex gap-[13px] lg:max-w-[1140px] my-20 mx-auto">
+        <section class="lg:flex sm:flex-row-revers gap-[13px] lg:max-w-[1140px] my-20 mx-auto">
             <div class="w-[570px] mb-0 mt-16">
                 <h1 class="text-[50px] font-bold font-serif">ALWAYS <span class="text-[#E95A08]">FRESH</span> <br> <span class="text-[#E95A08]">FLOWERS</span></h1>
                 <p class="text-2xl font-[400] text-gray-400 font-inter mb-0">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
@@ -40,10 +41,10 @@
         <section class="lg:max-w-6xl m-auto justify-center">
             <div class="item-center text-center m-auto mb-10 px-[120px]">
                 <h3 class="text-[60px] font-bold font-serif"><span class="text-[#E95A08]">Our</span> Plants</h3>
-                <p class="text-2xl my-5 text-gray-400 font-inter">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+                <p class="sm:max-w-sm  text-2xl my-5 text-gray-400 font-inter">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
             </div>
         <!-- Card style -->
-            <div class="grid grid-cols-4 lg:max-w-6xl m-auto">
+            <div class="lg:grid grid-cols-4 sm:grid-rows-2 lg:max-w-6xl m-auto">
                 <div class="item-center m-auto">
                     <img class="w-[270px]" src="images/sample-flower-image.png" alt="">
                     <p class="text-2xl text-center mt-5">Lily Blossom</p>
@@ -97,9 +98,9 @@
         <!-- Banner for flower plant and lover -->
          <section class="lg:max-w-6xl m-auto my-50 justify-center">
             <div>
-                <img class="max-w-sm w-[286px] h-[286px] absolute top-470 left-112" src="images/trusted-badge.png" alt="">
+                <img class="max-w-sm w-[286px] h-[286px] absolute top-498 left-112" src="images/trusted-badge.png" alt="">
             </div>
-            <div class="flex gap-[55px]">
+            <div class="flex gap-[55px] sm:flex-1">
                 <img class="w-[540px] h-[590px]" src="images/flower-store.png" alt="">
                 <div class="w-[540px] h-[521px] text-[50px] font-bold mt-8">
                     <h3 class="font-serif leading-tight">Flower & Plants Lover</h>
@@ -120,11 +121,11 @@
                 <div class="flex gap-10">
             <!-- Left side 2 images -->
                     <div class="grid grid-row-1 gap-5">
-                        <div class="bg-cover bg-center h-[206px] w-[366px] rounded-2xl opacity-80 content-center text-center" style="background-image: url('./images/deal-bloom.png');">
+                        <div class="bg-cover bg-center h-[200px] w-[366px] rounded-2xl opacity-80 content-center text-center" style="background-image: url('./images/deal-bloom.png');">
                             <h4 class="text-[20px] font-serif font-bold text-white">60% Off | Bloom Plant</h4>
                             <p class="text-2xl underline decoration-3 underline-offset-8 font-semibold text-underline-offset-[5px] text-white">Shop Now</p>
                         </div>
-                        <div class="bg-cover bg-center h-[206px] w-[366px] rounded-2xl opacity-80 content-center text-center" style="background-image: url('./images/deal-ana.png');">
+                        <div class="bg-cover bg-center h-[200px] w-[366px] rounded-2xl opacity-80 content-center text-center" style="background-image: url('./images/deal-ana.png');">
                             <h4 class="text-[20px] font-serif font-bold text-white">30% Off | Ana  Plant</h4>
                             <p class="text-2xl underline decoration-3 underline-offset-8 font-semibold text-underline-offset-[5px] text-white">Shop Now</p>
                         </div>
@@ -175,7 +176,7 @@
                         <li>Help Center</li>
                     </ul>
                 </div>
-                <div class="flex mt-8 gap-5">
+                <div class="flex mt-5 gap-5">
                     <a href="https://www.linkedin.com/"><img src="images/icon-linkedin.png" alt="linkedin"></a>
                     <a href="https://x.com/"><img src="images/icon-twitter.png" alt="Twitter"></a>
                     <a href="https://www.facebook.com"><img src="images/icon-facebook.png" alt="Facebook"></a>
