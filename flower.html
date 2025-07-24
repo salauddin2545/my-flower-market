@@ -3,25 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>My Flower Market</title>
 </head>
 <body>
     <header>
         <!-- logo -->
-        <div>
-            <img src="images/logo.png" alt="">
-        </div>
-        <nav>
-            <ul>
-                <li><a href=""></a>Home</li>
-                <li><a href=""></a>Shop</li>
-                <li><a href=""></a>About us</li>
-                <li><a href=""></a><img src="icon/cart.png" alt="">Cart ($56)</li>
-            </ul>
-        </nav>
+        <section class="lg:flex justify-between max-w-sm lg:max-w-6xl m-auto">
+            <div class="">
+                <img src="images/logo.png" alt="">
+            </div>
+        <!-- manu -->
+            <div">
+                <a class="mx-5" href="">Home</a>
+                <a class="mx-5" href="">Shop</a>
+                <a class="mx-5" href="">About us</a>
+                <a class="mx-5" href=""><img src="icon/cart.png" alt="">Cart ($56)</a>
+            </div>
+        </section>
+        <!-- About Section -->
+        <section class="flex item-centre lg:max-w-6xl mx-auto my-20">
+            <div>
+                <h1>ALWAYS <span>FRESH</span> <br>FLOWERS</h1>
+                <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+            </div>
+            <div>
+                <img src="images/hero-flower.png" alt="">
+            </div>
+        </section>
     </header>
     <main>
-
+        <!-- Our plant and card -->
+        <section class="justify-centre text-centre">
+            <h3>Our Plants</h3>
+            <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+            <div class="grid grid-cols-3 lg:max-w-6xl justify-center m-auto">
+                 <div>
+                    <img src="images/sample-flower-image.png" alt="">
+                    <p>Lily Blossom</p>
+                    <p>20 USD</p>
+                    <button class="bg-[#E95A08]">ADD TO CART</button>
+                </div>
+                <div>
+                    <img src="images/sample-flower-image.png" alt="">
+                    <p>Lily Blossom</p>
+                    <p>20 USD</p>
+                    <button>ADD TO CART</button>
+                </div>
+                <div>
+                    <img src="images/sample-flower-image.png" alt="">
+                    <p>Lily Blossom</p>
+                    <p>20 USD</p>
+                    <button>ADD TO CART</button>
+                </div>
+                <div>
+                    <img src="images/sample-flower-image.png" alt="">
+                    <p>Lily Blossom</p>
+                    <p>20 USD</p>
+                    <button>ADD TO CART</button>
+                </div>
+                <div>
+                    <img src="images/sample-flower-image.png" alt="">
+                    <p>Lily Blossom</p>
+                    <p>20 USD</p>
+                    <button>ADD TO CART</button>
+                </div>
+                <div>
+                    <img src="images/sample-flower-image.png" alt="">
+                    <p>Lily Blossom</p>
+                    <p>20 USD</p>
+                    <button>ADD TO CART</button>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
 
