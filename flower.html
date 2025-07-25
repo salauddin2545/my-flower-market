@@ -12,29 +12,29 @@
 </head>
 <body>
     <header>
-        <section class="md:flex w-[1140px] lg:justify-between pt-5 mx-auto">
+        <nav class="md:flex w-[1140px] sm:items-center md:justify-between lg:justify-between pt-5 mx-auto">
         <!-- logo -->
             <div>
                 <img src="images/logo.png" alt="">
             </div>
         <!-- manu -->
-            <nav>
-                <ul class="text-[20px]  text-gray-400 font-inter">
-                    <a href="#" class="hover:text-black mr-5">Home</a>
-                    <a href="" class="hover:text-black mr-5">Shop</a>
-                    <a href="" class="hover:text-black mr-5">About us</a>
+            <div>
+                <ul class="text-[20px] md:flex lg:flex text-gray-400 font-inter">
+                    <a href="#" class="hover:text-black hidden md:block mr-5">Home</a>
+                    <a href="" class="hover:text-black hidden md:block mr-5">Shop</a>
+                    <a href="" class="hover:text-black hidden md:block mr-5">About us</a>
                     <a href=""><img class="inline hover:text-black mr-1" src="icon/cart.png" alt="">Cart ($56)</a>
                 </ul>
-            </nav>
-        </section>
+            </div>
+        </nav>
         <!-- About Section -->
-         <section class="lg:flex w-[1140px] justify-center gap-3.5 mx-auto my-10">
-                <div class="w-[570px] h-[299px] mb-0 mt-auto">
-                    <h1 class="text-[50px] font-bold font-serif">ALWAYS <span class="text-[#E95A08]">FRESH</span> <br> <span class="text-[#E95A08]">FLOWERS</span></h1>
-                    <p class="text-2xl font-[400] text-gray-400 font-inter mb-0">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
-                </div>
+         <section class="lg:flex-row-reverse lg:flex w-[1140px] justify-center gap-3.5 mx-auto my-10">
                 <div>
                     <img class="w-[570px] h-[355px]" src="images/hero-flower.png" alt="">
+                </div>
+                <div class="w-[570px] h-[299px] mb-0 mt-auto text-center lg:text-left">
+                    <h1 class="text-[50px] font-bold font-serif">ALWAYS <span class="text-[#E95A08]">FRESH</span> <br> <span class="text-[#E95A08]">FLOWERS</span></h1>
+                    <p class="text-2xl font-[400] text-gray-400 font-inter mb-0">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
                 </div>
         </section>
     </header>
@@ -42,7 +42,7 @@
         <!-- Our plant and card -->
         <section class="lg:w-[1140px] mt-30 mx-auto">
             <div class="item-center text-center m-auto mb-10 p-0">
-                <h3 class="lg:text-[60px] font-bold font-serif"><span class="text-[#E95A08]">Our</span> Plants</h3>
+                <h3 class="text-[60px] font-bold font-serif"><span class="text-[#E95A08]">Our</span> Plants</h3>
                 <p class="w-[576px] lg:w-[1140px] content-center m-auto text-center item-center text-2xl text-gray-400 font-inter lg:px-30">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
             </div>
         <!-- Card Container -->
@@ -99,19 +99,18 @@
             </div>
         </section>
         <!-- Banner for flower plant and lover -->
-         <section class="lg:w-[1140px] my-0 mx-auto justify-center">
-            <div>
+         <section class="lg:w-[1140px] lg:h-[597px] mx-auto justify-center">
                 <!-- trusted sticker -->
                 <div>
-                    <img class="lg:w-[286px] h-[286px] relative absolute left-85 top-40" src="images/trusted-badge.png" alt="">
+                    <img class="hidden md:block lg:w-[286px] h-[286px] relative absolute left-85 top-60" src="images/trusted-badge.png" alt="">
                 </div>
                 <!-- plant image -->
                 <div class="lg:flex gap-15">
                     <div>
-                        <img class="w-[540px] h-[590px]" src="images/flower-store.png" alt="">
+                        <img class="w-[540px] h-[590px] mx-0 my-20 justify-center" src="images/flower-store.png" alt="">
                     </div>
                     <div class="w-[540px] h-[521px] text-[50px] font-bold mt-10">
-                        <h3 class="font-serif leading-tight text-center lg:text-left">
+                        <h3 class="font-serif leading-tight text-center lg:text-left mt-22">
                             Flower & Plants Lover
                         </h3>
                         <ul class="text-2xl text-justify space-y-2 font-[400] font-inter text-gray-400 mt-3">
@@ -121,7 +120,6 @@
                         </ul>      
                     </div>
                 </div>
-            </div>
          </section>
          <!-- Deal section banner -->
           <section class="lg:w-[1140px] mx-auto my-40 justify-center">
@@ -163,7 +161,7 @@
     </main>
     <footer>
         <!-- footer style -->
-        <section class="lg:max-w-6xl mx-auto my-40">
+        <section class="lg:max-w-6xl mx-auto my-30">
             <div class="lg:flex m-auto lg:gap-20 content-center pl-10 item-center justify-center">
                 <div class="">
                     <img src="images/logo.png" alt="">
